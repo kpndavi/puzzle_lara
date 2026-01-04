@@ -4,7 +4,7 @@ const coordinatesElement = document.getElementById('coordinates');
 
 // --- CONFIGURATION ---
 // REPLACE THIS WITH YOUR ACTUAL COORDINATES OR MESSAGE
-const SECRET_COORDINATES = "40.7484° N, 73.9857° W"; 
+const SECRET_COORDINATES = "56.96299° N, 24.12988° E";
 // ---------------------
 
 const emojis = ['🚗', '🌹', '💖', '🎁', '🧸', '🔑'];
@@ -94,7 +94,7 @@ function unflipCards() {
 function showWin() {
     coordinatesElement.textContent = SECRET_COORDINATES;
     winModal.classList.remove('hidden');
-    
+
     // Optional: simple confetti effect or sound could go here
     console.log("Winner!");
 }
