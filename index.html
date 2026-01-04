@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Surprise For You</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>For My Love ❤️</h1>
+            <p>Match all the pairs to unlock your surprise...</p>
+        </header>
+
+        <div class="game-grid" id="gameGrid">
+            <!-- Cards will be generated here by JavaScript -->
+        </div>
+
+        <div id="winModal" class="modal hidden">
+            <div class="modal-content">
+                <h2>You Won! 🎉</h2>
+                <p>You found all the matches because we are the perfect match!</p>
+                <div class="prize-reveal">
+                    <p>My car is waiting for you at:</p>
+                    <h3 id="coordinates">Loading...</h3>
+                    <p class="small-text">(Go find it!)</p>
+                </div>
+                <!-- <button onclick="location.reload()">Play Again</button> -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
